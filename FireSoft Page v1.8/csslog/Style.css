@@ -1,0 +1,92 @@
+*{
+	font-size: 24px;
+}
+body{
+	margin:0;
+	padding:0;
+	background:url(../img/login.png) no-repeat center top;
+	background-size: cover;
+	height:100vh;
+}
+.Regis{
+	background:transparent;
+	position:absolute;
+	text-align: center;
+	left:40%;
+	font-size:50px; 
+	font-family:Bold; 
+	margin:0;
+	padding:0 0 20px;
+}
+.formulario{
+	width:340px;
+	height:420px;
+	background:white;
+	color:#fff;
+	top:70%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding:70px 30px;
+	opacity:.9;
+
+}
+.input-formulario{
+	width:100%;
+	margin-bottom:20px;
+	;
+}
+.input-formulario input[type="text"],
+.input-formulario input[type="Email"],
+.input-formulario input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:black;
+	font-size: 16px
+	;
+}
+.avatar{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:-14%;
+	left: calc(50% - 50px);
+}
+.login-h1{
+	margin:0;
+	padding:0 0 20;
+	text-align:center;
+	font-weight: bold;
+	display:block;
+	font-size:22px;
+}
+.input-formulario {
+	border:none;
+	outline: none;
+	height: 40px;
+	background: darkorange;
+	color:black;
+	font-size: 18px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.input-formulario:hover {
+	color:lightblue;
+}
+.enlaces{
+	text-decoration: none;
+	font-size: 14px;
+	line-height:25px;
+	color:darkgrey;
+}
+.enlaces:hover {
+	color:#fff;
+}
+.abilonjas{
+	background-color:red
+}

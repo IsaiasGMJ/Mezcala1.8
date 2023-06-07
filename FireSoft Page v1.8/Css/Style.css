@@ -1,0 +1,122 @@
+*   {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family:sans-serif;
+    background-color:rgb(252, 175, 32);
+}
+.head{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 63px;
+    background:rgb(43, 42, 42);
+    position: absolute;
+    width: 100%;
+    z-index:100;
+    position:fixed;
+}
+.navbar{
+    display:flex;
+    margin-right:30px;
+    background:rgb(43, 42, 42);
+    margin-left:50% ;
+    position:sticky;
+}
+
+.navbar a{
+    display:block;
+    padding:20px;
+    color:whitesmoke;
+    background:rgb(43, 42, 42);
+    font-size:20px;
+}
+.navbar a:hover{
+    background-color: rgb(116, 113, 113);
+}
+.header{
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    background:url(../img/logoFiresoft.png)no-repeat center;
+    background-size: cover;
+    background-color: transparent;
+    padding-bottom:150px;
+}
+.titleh{
+    padding:5vh 0 0 50vh;
+    text-align: right;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform:uppercase;
+    color:black;
+    background-color: transparent;
+}
+p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    color:black;
+    padding: 1 100px;
+    background-color: transparent;
+    text-align: right;
+}
+.content{
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.titlesau{
+    display:flex;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform:uppercase;
+    color:black;
+    background-color: transparent;
+}
+.contac{
+    background:lightblue;    
+}
+.about{
+    height:240vh;
+
+}
+.fas, .fab{
+    background:lightblue;
+}
+.subtitle{
+    font-size:30px;
+    text-align: left;
+}
+p a{
+
+    font-style:sans-serif;
+    background:red;
+    font-size:30;
+}
+.fotosC{
+    height:150px;
+}
+@media (max-width:768px) { 
+    
+    .titleh{ 
+        margin-bottom: 0;
+        font-size: 40px;
+     }
+     .sau{
+        height: 120vh;
+     }
+     .navbar{
+        display: none;
+     }
+    }
